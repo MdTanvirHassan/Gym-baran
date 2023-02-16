@@ -8,16 +8,16 @@ import Brands from "../public/assets/brands.png";
 
 const Hero = () => {
   return (
-    <div id="hero" className=" w-full md:max-w-[1279px] md:max-h-[582px] m-auto">
+    <div id="hero" className="container w-full lg:max-w-[1279px] lg:max-h-[582px] m-auto">
       <section className="py-10">
-        <div className=" m-auto grid py-24 md:grid-cols-2 gap-0 items-center justify-center px-6 md:px-0">
+        <div className=" m-auto grid py-24 md:grid-cols-2 gap-1 items-center justify-center px-6 md:px-0">
 
-          <div className="mb-2 md:mb-0 items-center md:ml-[51px]">
+          <div className="mb-2 md:mb-0 items-center lg:ml-[51px]">
             <h1 className="text-[#262524] text-4xl md:text-6xl mb-1 md:w-[568px] md:h-[146px]  font-bold tracking-wider ">
               Healthy in side <br />
               <span className="text-[#8382EB]">fresh </span>out side
             </h1>
-            <p className="my-6 text-[#262524] md:w-[492px] md:h-[84px] tracking-wider text-[16px] text-justify leading-7 font-normal opacity-60">
+            <p className="my-6 text-[#262524] lg:w-[492px] md:h-[84px] tracking-wider text-[16px] text-justify leading-7 font-normal opacity-60">
               Exercise is a very important need for our body. Health and fitness will be obtained if you can do regular exercise and run a healthy routine.
             </p>
             <div className="flex py-4">
@@ -46,7 +46,7 @@ const Hero = () => {
           </div>
           <div className="m-auto ">
             <Image
-              className="relative z-10 object-cover object-center rounded md:ml-15"
+              className="relative z-10 object-cover object-center rounded lg:ml-15"
               alt="hero"
               src={Img}
               width={584}

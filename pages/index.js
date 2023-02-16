@@ -1,3 +1,4 @@
+import Healthy from '@/components/Healthy'
 import Hero from '@/components/Hero'
 import Head from 'next/head'
 //import Image from 'next/image'
@@ -13,6 +14,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero/>
+      <Healthy/>
       
     </>
   )

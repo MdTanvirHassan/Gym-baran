@@ -35,10 +35,10 @@ const Navbar = () => {
       style={{ backgroundColor: `${navBg}` }}
       className={
         shadow
-          ? "fixed w-full h-20 md:h-[75px] shadow-lg shadow-gray-700 z-[100] ease-in-out duration-300"
+          ? "fixed w-full h-20 lg:h-[75px] shadow-lg shadow-gray-700 z-[100] ease-in-out duration-300"
           : "fixed w-full h-20 z-[100]"
       }>
-      <div className="flex justify-between items-center w-full h-full md:w-[1246px] md:h-[50px] m-auto md:mt-[22px]">
+      <div className="flex justify-between items-center w-full h-full lg:w-[1246px] lg:h-[50px] m-auto lg:mt-[22px]">
         <Link href="/">
           <div className="">
             <Image
@@ -51,7 +51,7 @@ const Navbar = () => {
           </div>
         </Link>
         <div>
-          <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
+          <ul style={{ color: `${linkColor}` }} className="hidden lg:flex">
             
             <li className="ml-7 text-bold">
               <Link href="/">Home</Link>
@@ -76,7 +76,7 @@ const Navbar = () => {
           <div
             style={{ color: `${linkColor}` }}
             onClick={handleNav}
-            className="md:hidden px-4">
+            className="lg:hidden px-4">
             <AiOutlineMenu size={25} className="text-black" />
           </div>
         </div>
@@ -86,7 +86,7 @@ const Navbar = () => {
       {/* Overlay */}
       <div
         className={
-          nav ? "md:hidden fixed left-0 top-0 w-full h-screen bg-black/70" : ""
+          nav ? "lg:hidden fixed left-0 top-0 w-full h-screen bg-black/70" : ""
         }>
         {/* Side Drawer Menu */}
         <div
