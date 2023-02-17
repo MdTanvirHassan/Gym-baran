@@ -20,9 +20,9 @@ const Hero = () => {
               Exercise is a very important need for our body. Health and fitness will be obtained if you can do regular exercise and run a healthy routine.
             </p>
             <div className="flex py-4">
-              <button className="inline-flex text-white text-start bg-[#264373] border-0 py-2.5 px-4 focus:outline-none hover:bg-indigo-900 rounded-md shadow-lg shadow-gray-400">
+              <button className="inline-flex text-white text-start bg-[#264373] border-0 py-2.5 px-4 focus:outline-none hover:bg-indigo-900 rounded-md shadow-lg shadow-gray-400 hover:space-x-20">
                 <span>Get started</span>{" "}
-                <FaChevronCircleRight className="text-white text-xl ml-14 md:ml-16" />
+                <FaChevronCircleRight className="text-white text-xl ml-14 md:ml-16 " />
               </button>
               <button className="ml-4 inline-flex text-[#264373] bg-white border-0 py-2.5 px-2 md:px-4 focus:outline-none hover:bg-gray-200 rounded-md  shadow-lg shadow-gray-400 space-x-1 md:space-x-2">
                 <IoMdArrowDroprightCircle className="text-2xl" />

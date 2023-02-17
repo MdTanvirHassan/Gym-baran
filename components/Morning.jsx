@@ -6,18 +6,18 @@ import Img from "../public/assets/workout.png";
 const Morning = () => {
   return (
     <div>
-      <section className="text-gray-600 body-font">
-        <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-          <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+      <section className="container w-full lg:max-w-[1279px] lg:max-h-[582px] m-auto">
+        <div className="mx-auto flex px-5 py-24 md:flex-row flex-col ">
+          <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col items-start text-left mb-16 md:mb-0 ">
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
-              Daily morning
-              <br className="hidden lg:inline-block" />
-              workout in home
+              Daily morning 
+              <br className="" />
+               workout in home
             </h1>
             <p className="mb-8 leading-relaxed">
             Exercise is a very important need for our body. Health and fitness will be obtained if you can do regular exercise and run a healthy routine. Even at home we still have to be diligent in exercising, either alone or with your friends at home. 
             </p>
-            <button className="inline-flex text-white text-start bg-[#264373] border-0 py-2.5 px-4 focus:outline-none hover:bg-indigo-900 rounded-md shadow-xl shadow-gray-400">
+            <button className="inline-flex text-white text-start bg-[#264373] border-0 py-2.5 px-4 focus:outline-none hover:bg-indigo-900 rounded-md shadow-xl shadow-gray-400 hover:space-x-20">
               <span>Get started</span>{" "}
               <BsArrowRight className="text-white text-xl ml-14 md:ml-16" />
             </button>

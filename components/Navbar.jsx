@@ -68,7 +68,7 @@ const Navbar = () => {
             
             <li className="ml-7 text-bold">
               <Link href="/#login">
-              <button type="button" className="bg-[#264373] text-white w-[114px] h-[50px] rounded-xl -mt-5">Log in</button>
+              <button type="button" className="bg-[#264373] text-white w-[114px] h-[50px] rounded-[10px] hover:bg-indigo-900 active:ring-1 -mt-5">Log in</button>
               </Link>
             </li>
           </ul>

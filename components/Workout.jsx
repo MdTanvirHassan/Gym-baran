@@ -6,8 +6,8 @@ import Img from "../public/assets/workout.png";
 const Workout = () => {
   return (
     <div className="">
-      <section className="">
-        <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col-reverse items-center">
+      <section className="container w-full lg:max-w-[1279px] lg:max-h-[582px] m-auto">
+        <div className=" mx-auto flex px-5 py-24 md:flex-row flex-col-reverse items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mt-10 md:mb-0">
             <Image
               className="relative z-10 object-cover object-center rounded"
@@ -29,7 +29,7 @@ const Workout = () => {
               routine. Even at home we still have to be diligent in exercising,
               either alone or with your friends at home.
             </p>
-            <button className="inline-flex text-white text-start bg-[#264373] border-0 py-2.5 px-4 focus:outline-none hover:bg-indigo-900 rounded-md shadow-xl shadow-gray-400">
+            <button className="inline-flex text-white text-start bg-[#264373] border-0 py-2.5 px-4 focus:outline-none hover:bg-indigo-900 rounded-md shadow-xl shadow-gray-400 hover:space-x-20">
               <span>Get started</span>{" "}
               <BsArrowRight className="text-white text-xl ml-14 md:ml-16" />
             </button>

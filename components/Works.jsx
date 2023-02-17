@@ -1,7 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import { BsArrowRight } from "react-icons/bs";
-import Img from "../public/assets/workout.png";
+import Img from "../public/assets/works.png";
 
 const Works = () => {
   return (
@@ -13,26 +12,39 @@ const Works = () => {
               className="relative z-10 object-cover object-center rounded"
               alt="workout"
               src={Img}
-              width={584}
-              height={580}
+              width={605}
+              height={444}
             />
           </div>
-          <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col items-start text-left ">
-            <h1 className="sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
-              Best full body
-              <br className="" />
-              workout to lose fat
+          <div className=" flex flex-col items-start text-left lg:-mt-44 mx-auto">
+            <h1 className="sm:text-4xl text-3xl mb-4 font-medium mx-auto text-center text-gray-900">
+              How it works?
             </h1>
-            <p className="mb-8 leading-relaxed">
-              Exercise is a very important need for our body. Health and fitness
-              will be obtained if you can do regular exercise and run a healthy
-              routine. Even at home we still have to be diligent in exercising,
-              either alone or with your friends at home.
-            </p>
-            <button className="inline-flex text-white text-start bg-[#264373] border-0 py-2.5 px-4 focus:outline-none hover:bg-indigo-900 rounded-md shadow-xl shadow-gray-400">
-              <span>Get started</span>{" "}
-              <BsArrowRight className="text-white text-xl ml-14 md:ml-16" />
-            </button>
+            <div className="flex flex-wrap lg:w-[461px] lg:h-[28px] mx-auto sm:mb-2 ">
+              <div className="p-2 w-full">
+                <div className="bg-white shadow-lg shadow-gray-300 rounded-md flex p-4 h-full items-center">
+                  <span className="font-medium">
+                    The body becomes sick because of rarely exercise
+                  </span>
+                </div>
+              </div>
+
+              <div className="p-2 w-full">
+                <div className="bg-white opacity-40 shadow-lg shadow-gray-300 rounded-md flex p-4 h-full items-center">
+                  <span className="font-medium">
+                    Don't give up in order to get a healthy and ideal body
+                  </span>
+                </div>
+              </div>
+
+              <div className="p-2 w-full">
+                <div className="bg-white opacity-40 shadow-lg shadow-gray-300 rounded-md flex p-4 h-full items-center">
+                  <span className="font-medium">
+                    Become addicted to the exercise that is given
+                  </span>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>

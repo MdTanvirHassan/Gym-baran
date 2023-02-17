@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className="pt-8">
       <footer className="bg-[#1C3764] text-white">
-        <div className="container px-5 py-16 mx-auto flex  lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+        <div className="container w-full lg:max-w-[1279px] lg:max-h-[582px] m-auto px-5 py-16 mx-auto flex  lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
           <div className="w-64 mx-4 md:mx-auto text-left">
             <a className=" justify-start text-white">
               <Image
