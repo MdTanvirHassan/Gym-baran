@@ -25,7 +25,7 @@ const Testimonials = () => {
                   <img
                     alt=""
                     src=""
-                    className="bg-pink-400 w-12 h-12 rounded-lg flex-shrink-0 object-cover object-center"
+                    className="bg-pink-400 w-12 h-12 rounded-2xl flex-shrink-0 object-cover object-center"
                   />
                   <span className="flex-grow flex flex-col pl-4">
                     <span className="title-font font-medium text-gray-900">
@@ -55,7 +55,7 @@ const Testimonials = () => {
                   <img
                     alt=""
                     src=""
-                    className="bg-pink-400 w-12 h-12 rounded-lg flex-shrink-0 object-cover object-center"
+                    className="bg-pink-400 w-12 h-12 rounded-2xl flex-shrink-0 object-cover object-center"
                   />
                   <span className="flex-grow flex flex-col pl-4">
                     <span className="title-font font-medium text-gray-900">
