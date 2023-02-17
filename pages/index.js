@@ -1,6 +1,7 @@
 import Healthy from '@/components/Healthy'
 import Hero from '@/components/Hero'
 import Morning from '@/components/Morning'
+import Programs from '@/components/Programs'
 import Static from '@/components/Static'
 import Workout from '@/components/Workout'
 import Works from '@/components/Works'
@@ -23,6 +24,7 @@ export default function Home() {
       <Workout/>
       <Morning/>
       <Works/>
+      <Programs/>
       
     </>
   )

@@ -72,20 +72,6 @@ const Static = () => {
 
         </div>
       </div>
-
-      {/* <div className=" static md:w-[1236px] md:h-[274px] rounded-[30px] m-auto">
-        <div className="grid md:grid-cols-3 md:gap-8 m-auto items-center justify-center text-center">
-          <div className="flex m-auto items-center justify-center text-center">
-            <div className="backdrop-invert bg-white/30 backdrop-opacity-20 backdrop-blur-md w-[75px] h-[75px] rounded-[20px] mt-10  m-auto items-center justify-center text-center">
-              <Image
-                src={static1}
-                alt="static1"
-                className="w-[50px] h-[50px] m-auto items-center justify-center text-center"
-              />
-            </div>
-          </div>
-        </div>
-      </div> */}
     </div>
   );
 };
