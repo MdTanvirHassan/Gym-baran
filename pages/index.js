@@ -27,7 +27,6 @@ export default function Home() {
       <Works/>
       <Programs/>
       <Testimonials/>
-      
     </>
   )
 }

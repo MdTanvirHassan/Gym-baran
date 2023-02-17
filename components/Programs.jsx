@@ -10,7 +10,7 @@ import static6 from "../public/assets/yoga-posture-.png";
 const Programs = () => {
   return (
     <div className="py-16 px-5 md:px-0 ">
-        <h2 className="text-center py-14">Programs that can <br />be taken</h2>
+        <h2 className="text-center tracking-wider py-14">Programs that can <br />be taken</h2>
       <div className="flex items-center justify-center  w-full h-full m-auto">
         <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-1 w-full max-w-6xl m-auto">
 

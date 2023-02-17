@@ -18,7 +18,7 @@ const Workout = () => {
             />
           </div>
           <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col items-start text-left ">
-            <h1 className="sm:text-4xl text-3xl lg:w-[558px] lg:h-[146px] mb-2 font-medium text-gray-900">
+            <h1 className="sm:text-4xl text-3xl lg:w-[558px] lg:h-[146px] mb-2 tracking-wider text-gray-900">
               Best full body
               <br className="" />
               workout to lose fat

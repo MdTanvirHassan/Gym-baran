@@ -3,7 +3,7 @@ import React from "react";
 const Testimonials = () => {
   return (
     <div className="py-6">
-      <h2 className="text-center py-10">Testimonials</h2>
+      <h2 className="text-center tracking-wider py-10">Testimonials</h2>
       <div className="container w-full lg:max-w-[1216px] lg:max-h-[323px] m-auto">
         <div className=" px-5 mx-auto">
           <div className="flex flex-wrap -m-4">
@@ -25,7 +25,7 @@ const Testimonials = () => {
                   <img
                     alt=""
                     src=""
-                    className="bg-pink-400 w-12 h-12 rounded-2xl flex-shrink-0 object-cover object-center"
+                    className="bg-pink-400 w-12 h-12 rounded-2xl flex-shrink-0 object-cover object-center hover:scale-105"
                   />
                   <span className="flex-grow flex flex-col pl-4">
                     <span className="title-font font-medium text-gray-900">
@@ -55,7 +55,7 @@ const Testimonials = () => {
                   <img
                     alt=""
                     src=""
-                    className="bg-pink-400 w-12 h-12 rounded-2xl flex-shrink-0 object-cover object-center"
+                    className="bg-pink-400 w-12 h-12 rounded-2xl flex-shrink-0 object-cover object-center hover:scale-105"
                   />
                   <span className="flex-grow flex flex-col pl-4">
                     <span className="title-font font-medium text-gray-900">

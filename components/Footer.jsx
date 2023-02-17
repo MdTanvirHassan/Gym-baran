@@ -19,6 +19,15 @@ const Footer = () => {
               <p className=" text-sm text-[#FFFFFF] opacity-50 -mt-8">
                 We take care of your health with regular and fun exercise
               </p>
+              <div className=" py-2">
+                <ul className="flex space-x-2">
+                  <li className="bg-pink-500 p-3"></li>
+                  <li className="bg-pink-500 p-3"></li>
+                  <li className="bg-pink-500 p-3"></li>
+                  <li className="bg-pink-500 p-3"></li>
+                  <li className="bg-pink-500 p-3"></li>
+                </ul>
+              </div>
             </a>
           </div>
           <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-start">

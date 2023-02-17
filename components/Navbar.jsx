@@ -52,7 +52,6 @@ const Navbar = () => {
         </Link>
         <div>
           <ul style={{ color: `${linkColor}` }} className="hidden lg:flex">
-            
             <li className="ml-7 text-bold">
               <Link href="/">Home</Link>
             </li>
@@ -65,10 +64,14 @@ const Navbar = () => {
             <li className="ml-7 text-bold">
               <Link href="/#about">About us</Link>
             </li>
-            
+
             <li className="ml-7 text-bold">
               <Link href="/#login">
-              <button type="button" className="bg-[#264373] text-white w-[114px] h-[50px] rounded-[10px] hover:bg-indigo-900 active:ring-1 -mt-5">Log in</button>
+                <button
+                  type="button"
+                  className="bg-[#264373] text-white w-[114px] h-[50px] rounded-[10px] hover:bg-indigo-900 active:ring-1 -mt-5">
+                  Log in
+                </button>
               </Link>
             </li>
           </ul>
@@ -99,7 +102,13 @@ const Navbar = () => {
             <div className="flex flex-row w-full items-center justify-between">
               <Link href="/">
                 <>
-                  <Image src={NavLogo} width="275" height="75" alt="/" className=""/>
+                  <Image
+                    src={NavLogo}
+                    width="275"
+                    height="75"
+                    alt="/"
+                    className=""
+                  />
                 </>
               </Link>
               <div
@@ -108,9 +117,7 @@ const Navbar = () => {
                 <AiOutlineClose className="text-black" />
               </div>
             </div>
-            <div className="border-b border-gray-300 my-2">
-              
-            </div>
+            <div className="border-b border-gray-300 my-2"></div>
           </div>
           <div className="py-2 flex flex-col">
             <ul className="uppercase">
@@ -134,14 +141,13 @@ const Navbar = () => {
                   About us
                 </li>
               </Link>
-             
+
               <Link href="/#login">
                 <li onClick={() => setNav(false)} className="py-2 text-sm">
                   Log in
                 </li>
               </Link>
             </ul>
-            
           </div>
         </div>
       </div>

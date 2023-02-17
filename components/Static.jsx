@@ -12,7 +12,7 @@ const Static = () => {
         <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-10 w-full max-w-6xl m-auto">
 
           <div className="flex items-center p-4 pt-10 md:pt-0  m-auto">
-            <div className="flex flex-shrink-0 items-center justify-center  h-[75px] w-[75px] rounded-[20px] backdrop-opacity-10 backdrop-invert bg-white/30">
+            <div className="flex flex-shrink-0 items-center justify-center  h-[75px] w-[75px] rounded-[20px] backdrop-opacity-10 backdrop-invert bg-white/30 hover:scale-105">
               <Image
                 src={static1}
                 alt="static1"
@@ -32,7 +32,7 @@ const Static = () => {
 
           
           <div className="flex items-center p-4 m-auto">
-            <div className="flex flex-shrink-0 items-center justify-center  h-[75px] w-[75px] rounded-[20px] backdrop-opacity-10 backdrop-invert bg-white/30">
+            <div className="flex flex-shrink-0 items-center justify-center  h-[75px] w-[75px] rounded-[20px] backdrop-opacity-10 backdrop-invert bg-white/30 hover:scale-105">
               <Image
                 src={static2}
                 alt="static1"
@@ -52,7 +52,7 @@ const Static = () => {
 
           
           <div className="flex items-center p-4 pb-10 md:pb-0 m-auto">
-            <div className="flex flex-shrink-0 items-center justify-center  h-[75px] w-[75px] rounded-[20px] backdrop-opacity-10 backdrop-invert bg-white/30">
+            <div className="flex flex-shrink-0 items-center justify-center  h-[75px] w-[75px] rounded-[20px] backdrop-opacity-10 backdrop-invert bg-white/30 hover:scale-105">
               <Image
                 src={static3}
                 alt="static1"

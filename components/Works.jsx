@@ -17,29 +17,29 @@ const Works = () => {
             />
           </div>
           <div className=" flex flex-col items-start text-left lg:-mt-44 mx-auto">
-            <h1 className="sm:text-4xl text-3xl mb-4 font-medium mx-auto text-center text-gray-900">
+            <h1 className="sm:text-4xl text-3xl mb-4 tracking-wider mx-auto text-center text-gray-900">
               How it works?
             </h1>
             <div className="flex flex-wrap lg:w-[461px] lg:h-[28px] mx-auto sm:mb-2 ">
               <div className="p-2 w-full">
-                <div className="bg-white shadow-lg shadow-gray-300 rounded-md flex p-4 h-full items-center">
-                  <span className="font-medium">
+                <div className="bg-white shadow-lg shadow-gray-300 rounded-md flex p-4 h-full items-center hover:scale-105">
+                  <span className="font-normal">
                     The body becomes sick because of rarely exercise
                   </span>
                 </div>
               </div>
 
               <div className="p-2 w-full">
-                <div className="bg-white opacity-60 shadow-lg shadow-gray-300 rounded-md flex p-4 h-full items-center">
-                  <span className="font-medium">
+                <div className="bg-white opacity-60 shadow-lg shadow-gray-300 rounded-md flex p-4 h-full items-center hover:scale-105">
+                  <span className="font-normal">
                     Don't give up in order to get a healthy and ideal body
                   </span>
                 </div>
               </div>
 
               <div className="p-2 w-full">
-                <div className="bg-white opacity-60 shadow-lg shadow-gray-300 rounded-md flex p-4 h-full items-center">
-                  <span className="font-medium">
+                <div className="bg-white opacity-60 shadow-lg shadow-gray-300 rounded-md flex p-4 h-full items-center hover:scale-105">
+                  <span className="font-normal">
                     Become addicted to the exercise that is given
                   </span>
                 </div>
