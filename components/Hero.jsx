@@ -1,7 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import { FaChevronCircleRight } from "react-icons/fa";
-//import { BiCaretRightCircle } from "react-icons/bi";
+import { FaChevronCircleRight } from "react-icons/fa";;
 import { IoMdArrowDroprightCircle } from "react-icons/io";
 import Img from "../public/assets/hero.png";
 import Brands from "../public/assets/brands.png";
