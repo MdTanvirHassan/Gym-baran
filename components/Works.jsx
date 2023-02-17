@@ -30,7 +30,7 @@ const Works = () => {
               </div>
 
               <div className="p-2 w-full">
-                <div className="bg-white opacity-40 shadow-lg shadow-gray-300 rounded-md flex p-4 h-full items-center">
+                <div className="bg-white opacity-60 shadow-lg shadow-gray-300 rounded-md flex p-4 h-full items-center">
                   <span className="font-medium">
                     Don't give up in order to get a healthy and ideal body
                   </span>
@@ -38,7 +38,7 @@ const Works = () => {
               </div>
 
               <div className="p-2 w-full">
-                <div className="bg-white opacity-40 shadow-lg shadow-gray-300 rounded-md flex p-4 h-full items-center">
+                <div className="bg-white opacity-60 shadow-lg shadow-gray-300 rounded-md flex p-4 h-full items-center">
                   <span className="font-medium">
                     Become addicted to the exercise that is given
                   </span>

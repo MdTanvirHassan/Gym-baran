@@ -3,6 +3,7 @@ import Hero from '@/components/Hero'
 import Morning from '@/components/Morning'
 import Programs from '@/components/Programs'
 import Static from '@/components/Static'
+import Testimonials from '@/components/Testimonials'
 import Workout from '@/components/Workout'
 import Works from '@/components/Works'
 import Head from 'next/head'
@@ -25,6 +26,7 @@ export default function Home() {
       <Morning/>
       <Works/>
       <Programs/>
+      <Testimonials/>
       
     </>
   )

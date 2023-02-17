@@ -6,24 +6,24 @@ import Img from "../public/assets/workout.png";
 const Workout = () => {
   return (
     <div className="">
-      <section className="container w-full lg:max-w-[1279px] lg:max-h-[582px] m-auto">
+      <section className="container w-full lg:max-w-[1241px] lg:max-h-[497px] m-auto">
         <div className=" mx-auto flex px-5 py-24 md:flex-row flex-col-reverse items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mt-10 md:mb-0">
             <Image
               className="relative z-10 object-cover object-center rounded"
               alt="workout"
               src={Img}
-              width={584}
-              height={580}
+              width={571}
+              height={496}
             />
           </div>
           <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col items-start text-left ">
-            <h1 className="sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
+            <h1 className="sm:text-4xl text-3xl lg:w-[558px] lg:h-[146px] mb-2 font-medium text-gray-900">
               Best full body
               <br className="" />
               workout to lose fat
             </h1>
-            <p className="mb-8 leading-relaxed">
+            <p className="mb-8 lg:w-[553px] lg:h-[112px]  text-[16px] leading-7 font-normal opacity-60">
               Exercise is a very important need for our body. Health and fitness
               will be obtained if you can do regular exercise and run a healthy
               routine. Even at home we still have to be diligent in exercising,
