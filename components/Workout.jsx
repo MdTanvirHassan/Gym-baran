@@ -4,7 +4,7 @@ import { BsArrowRight } from "react-icons/bs";
 import workout from "../public/assets/workout.png";
 import Img from "../public/assets/image78.png";
 import Circle from "../public/assets/circle2.png";
-import Vector from "../public/assets/vector3.png";
+import Vector from "../public/assets/vector2.png";
 import Curve from "../public/assets/curve3.png";
 import Static1 from "../public/assets/dancer-motion.svg";
 import Static2 from "../public/assets/stretching.svg";
@@ -45,7 +45,7 @@ const Workout = () => {
 
                 <Image
                   className=" absolute m-auto w-[250.31px] h-[189.34px] lg:w-[414.08px] lg:h-[307.39px] bottom-24 left-16 "
-                  alt="hero"
+                  alt="vector"
                   src={Vector}
                   // width=""
                   // height=""
@@ -61,7 +61,7 @@ const Workout = () => {
                 />
               </div>
               <div className="relative z-10 ">
-                {/*static1 members */}
+                {/*static1  */}
                 <div className="relative z-10 top-6 ml-32 ">
                   <div className="flex flex-shrink-0 items-center justify-center  h-[60px] w-[60px] rounded-full backdrop-opacity-10 backdrop-invert bg-gradient-to-r from-pink-500 to-pink-300 hover:scale-105 shadow-lg shadow-gray-400 ">
                     <Image
