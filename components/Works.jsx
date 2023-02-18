@@ -6,8 +6,8 @@ const Works = () => {
   return (
     <div className="">
       <section className="">
-        <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col-reverse items-center">
-          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mt-10 md:mb-0">
+        <div className="container mx-auto flex px-5 py-24 lg:flex-row flex-col-reverse items-center">
+          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-full mt-10 md:mb-0">
             <Image
               className="relative z-10 object-cover object-center rounded"
               alt="workout"
@@ -17,7 +17,7 @@ const Works = () => {
             />
           </div>
           <div className=" flex flex-col items-start text-left lg:-mt-44 mx-auto">
-            <h1 className="sm:text-4xl text-3xl mb-4 tracking-wider mx-auto text-center text-gray-900">
+            <h1 className="sm:text-4xl text-3xl mb-4 tracking-wider mx-auto text-center text-[#262524]">
               How it works?
             </h1>
             <div className="flex flex-wrap lg:w-[461px] lg:h-[28px] mx-auto sm:mb-2 ">

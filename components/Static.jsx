@@ -8,7 +8,7 @@ import static3 from "../public/assets/dancer-motion.svg";
 const Static = () => {
   return (
     <div className="py-16 px-5 md:px-0 ">
-      <div className="flex items-center justify-center static w-full h-full md:w-[1236px] md:h-[274px] rounded-[30px] m-auto">
+      <div className="flex items-center justify-center static w-full h-full lg:w-[1236px] lg:h-[274px] rounded-[30px] m-auto">
         <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-10 w-full max-w-6xl m-auto">
 
           <div className="flex items-center p-4 pt-10 md:pt-0  m-auto">

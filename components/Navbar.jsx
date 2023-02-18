@@ -52,20 +52,20 @@ const Navbar = () => {
         </Link>
         <div>
           <ul style={{ color: `${linkColor}` }} className="hidden lg:flex">
-            <li className="ml-7 text-bold">
+            <li className="ml-7 text-bold hover:text-gray-600">
               <Link href="/">Home</Link>
             </li>
-            <li className="ml-7 text-bold">
+            <li className="ml-7 text-bold hover:text-gray-600">
               <Link href="/#program">Program</Link>
             </li>
-            <li className="ml-7 text-bold">
+            <li className="ml-7 text-bold hover:text-gray-600">
               <Link href="/#blog">Blog</Link>
             </li>
-            <li className="ml-7 text-bold">
+            <li className="ml-7 text-bold hover:text-gray-600">
               <Link href="/#about">About us</Link>
             </li>
 
-            <li className="ml-7 text-bold">
+            <li className="ml-7 text-bold hover:text-gray-600">
               <Link href="/#login">
                 <button
                   type="button"
