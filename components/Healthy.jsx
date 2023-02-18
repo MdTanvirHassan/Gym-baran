@@ -2,7 +2,7 @@ import React from "react";
 
 const Healthy = () => {
   return (
-    <div className="relative py-28 xl:pt-40 h-full">
+    <div className="relative my-28 xl:mt-40 h-full">
       <div className="container py-28 grid lg:grid-cols-3 lg:w-[1232px] lg:h-[146px] m-auto">
         <div className="col-span-1 lg:w-[558px] lg:h-[146px] lg:ml-[81px] px-4 lg:px-4 mb-2">
           <h2 className="tracking-wider">
