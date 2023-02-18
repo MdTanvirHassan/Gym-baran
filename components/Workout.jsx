@@ -4,7 +4,7 @@ import { BsArrowRight } from "react-icons/bs";
 import workout from "../public/assets/workout.png";
 import Img from "../public/assets/image78.png";
 import Circle from "../public/assets/circle2.png";
-import Vector from "../public/assets/vector2.png";
+import Vector from "../public/assets/vector35.jpg";
 import Curve from "../public/assets/curve3.png";
 import Static1 from "../public/assets/dancer-motion.svg";
 import Static2 from "../public/assets/stretching.svg";
