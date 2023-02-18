@@ -7,7 +7,7 @@ const Morning = () => {
   return (
     <div>
       <section className="container w-full lg:max-w-[1224px] lg:max-h-[484px] m-auto">
-        <div className="mx-auto flex px-5 py-24 md:flex-row flex-col ">
+        <div className="mx-auto flex px-5 py-24 lg:my-40 md:flex-row flex-col ">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col items-start text-left mb-16 md:mb-0 m-auto">
             <h1 className="sm:text-4xl text-3xl mb-4 tracking-wider text-gray-900">
               Daily morning
